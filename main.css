@@ -1,19 +1,16 @@
+/* Base page */
+body { font-family: Arial, sans-serif; margin: 24px; line-height: 1.4; }
 
+/* Your existing heading/text sizes */
+h1 { font-size: 40px; font-family: Arial; }
+h2 { font-size: 25px; font-family: Arial; }
+h3 { font-family: Arial; }
+p  { font-size: 14px; font-family: Arial; }
 
-h1 {
-  font-size: 40px;
-  font-family: Arial
-}
-h2 {
-  font-size: 25px;
-  font-family: Arial
-}
-h3 {
-  font-family: Arial
-}
-p {
-  font-size: 14px;
-  font-family: Arial
-}
-
-
+/* Login mock styles */
+form { max-width: 420px; padding: 16px; border: 1px solid #ddd; border-radius: 8px; }
+label { display: block; margin-top: 12px; font-weight: 600; }
+input { width: 100%; padding: 8px; box-sizing: border-box; margin-top: 4px; }
+input:focus { outline: 2px solid #3b82f6; outline-offset: 1px; }
+button { margin-top: 16px; padding: 8px 12px; }
+.privacy-note { font-size: 0.9rem; margin-top: 8px; }
